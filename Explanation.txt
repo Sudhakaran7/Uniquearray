@@ -1,0 +1,58 @@
+Given an array, a increment consists of choosing any A[i], and incrementing it by 1.
+Return the least number of increment to make every value in array unique.
+
+Input description:
+Length of the array in integer L,
+in next line, array elements of size L
+
+Output description:
+the least number of increment to make every value in array unique.
+
+Sample Input:
+7
+3 4 5 2 4 1 2
+
+Sample Output:
+7
+
+Explanation:
+To make the array unique, we need to check for the duplicates,
+after 7 increment the array will be (3,4,5,2,6,1,7),ie.,
+the second 4 as 4+1+1=6 (2 increment) and second 2 as 2+1+1+1+1+1 (5 increment) 
+therefore the total increment is 2+5=7
+so the output is 7
+
+Sample Input:
+5
+12 15 17 12 15
+
+Samplpe Output:
+2
+
+Sample Input:
+8
+98 98 95 94 92 91 90 90
+
+Sample Output:
+4
+
+Sample Input:
+10
+34 35 36 35 37 37 37 39 39 39
+
+Sample Output:
+17
+
+Sample Input:
+9
+121 122 167 176 122 121 167 168 169
+
+Sample Output:
+7
+
+Sample Input:
+6
+90 99 99 98 100 101 
+
+Sample Output:
+3
